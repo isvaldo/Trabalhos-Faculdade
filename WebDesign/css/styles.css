@@ -1,27 +1,64 @@
 @charset "utf-8";
-/* CSS Document */
+/*
+Trabalho de avaliação  WebDesign
+Folha de estilos
+By: Isvaldo Fernades Souza, Guilherme d Avila Vertein
+
+
+*/
 
 body {
-	font-family:Verdana, Geneva, sans-serif;
+    font-family:Verdana, Geneva, sans-serif;
+    background: #000000;
 }
+
 #container {
-	width:960px;  /* largura indicada para resolução 1024 */
+	max-width:960px;  /* largura indicada para resolução 1024 */
 	margin:auto;  /* centraliza na horizontal */	
 }
-header {
-	background-color:#090;
-	height:100px;
+
+
+#logo{
+    width: 100% !important;
 }
-nav {
-	background-color:#F90;
-	height:30px;
+
+
+nav ul li {
+    /*Alinhamento dos itens do menu*/
+	float:left;
 }
+
+nav ul li a {
+	display:block;   /* transforma o link em caixa */
+	text-decoration:none; /* retira o sublinhado do link */
+	width:160px; /* largura de cada item - 960px dividido por 6 itens */
+	text-align:center; /* centraliza o texto */
+	background-color: #247f97; /* cor de fundo */
+	padding:5px 0; /* margem interna apenas em cima e embaixo (top e bottom) */	
+	color:#FFF; /* cor da letra */
+	border:1px #000000 solid;
+	box-sizing:border-box; /* evita que borda e padding sejam acrescentadas ao tamanho */
+}
+nav ul li a:hover {
+	background-color: #bc84ff;
+	color: #0a2a89;
+ }
+
+/*  Exemplos de padding (serve para margin tb)
+	padding:5px 0; = top e bottom=5px / right e left=0
+	padding:15px 10px 5px 7px; = sentido horário:top=15px,right=10px,bottom=5px e left=7px
+	padding:10px; = margem interna de 10px em todos os lados
+	padding:10px 5px 5px; top=10px, right e left=5px, bottom=5px */
+	
+	
 main {
-	background-color:#FF3;
+	clear:both; /* evita o contágio do float dos itens do menu*/
 }
+
+
 .left {
 	background-color:#633;
-	height:300px;
+	height:400px;
 	width:480px; /* a largura permite que a caixa seguinte fique ao lado */
 	float:left;  /* o float de fato faz com que a caixa seguinte suba */
 	box-sizing:border-box; /* evita que o padding e border sejam considerados na largura ou altura */
@@ -29,7 +66,7 @@ main {
 }
 .right {
 	background-color:#663;
-	height:300px;
+	height:400px;
 	width:480px; /* a largura permite que a caixa caiba ao lado da anterior */
 	float:right; /* o float faz com que fique ao lado e não embaixo da caixa anterior*/
 	box-sizing:border-box; /* evita que o padding e border sejam considerados na largura ou altura */
@@ -37,6 +74,6 @@ main {
 }
 footer {
 	background-color:#090;
-	height:80px;
+	height:15px;
 	clear:both; /* vacina anti-float - retira o contágio do float */
 }
