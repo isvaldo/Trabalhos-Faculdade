@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+}
+#container {
+	width:960px;  /* largura indicada para resolução 1024 */
+	margin:auto;  /* centraliza na horizontal */	
+}
+header {
+	background-color:#090;
+	height:100px;
+}
+nav {
+	background-color:#F90;
+	height:30px;
+}
+main {
+	background-color:#FF3;
+}
+.left {
+	background-color:#633;
+	height:300px;
+	width:480px; /* a largura permite que a caixa seguinte fique ao lado */
+	float:left;  /* o float de fato faz com que a caixa seguinte suba */
+	box-sizing:border-box; /* evita que o padding e border sejam considerados na largura ou altura */
+	padding:10px;
+}
+.right {
+	background-color:#663;
+	height:300px;
+	width:480px; /* a largura permite que a caixa caiba ao lado da anterior */
+	float:right; /* o float faz com que fique ao lado e não embaixo da caixa anterior*/
+	box-sizing:border-box; /* evita que o padding e border sejam considerados na largura ou altura */
+	padding:10px;
+}
+footer {
+	background-color:#090;
+	height:80px;
+	clear:both; /* vacina anti-float - retira o contágio do float */
+}
