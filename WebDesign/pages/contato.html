@@ -1,18 +1,22 @@
+<script>
+
+</script>
 <section class="center">
-
-    <form id="contato" action="arquivo.php" method="get">
-
-        <label>Nome*:</label><br>
-        <input type="text" name="nome" id="nome" size="50" maxlength="50" autofocus required><br>
-
-        <label>E-mail*:</label><br>
-        <input type="email" name="email" id="email" size="50" maxlength="50" required><br>
-
-        <label>Comentários*:</label><br>
-        <textarea id="comentarios" name="comentarios" cols="50" rows="10" required></textarea><br>
-
-        <button id="enviar">Enviar</button>
-
+    <form id="contactform" action="#" onsubmit="valida_contato();">
+        <h3>Fale Conosco!</h3>
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Email" required>
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento" placeholder="nascimento" required>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" placeholder="Deixe uma mensagem" required></textarea>
+            <p>(Todos os campos devem ser preenchidos)</p>
+            <input type="submit" value="Send Message" id="sendbutton">
+        </fieldset>
     </form>
 
 </section>

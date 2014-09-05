@@ -102,6 +102,7 @@ main {
 /*Section, configuração de blocos*/
 section{
     color:#FFFFFF;
+    clear:both;
 }
 
 section h1{
@@ -130,10 +131,121 @@ figure figcaption{clear:both;}
     margin:10px;
     opacity: 0.7;
 }
-/*configuração de footer*/
 
+/*Configuração forms*/
+#contactform{
+    width:950px;
+    opacity: 0.7;
+    /*background: #247f97;*/
+    margin:20px 0;
+    padding:10px;
+    border: 1px solid #247f97;
+    border-radius:10px;
+    box-shadow: 0 0 10px rgba(0,0,0, .65);
+    font-family: Arimo, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+#contactform fieldset{
+    border:none;
+}
+#contactform legend{
+    display:none;
+}
+#contactform input, #contactform textarea{
+    display:block;
+}
+
+#contactform label {
+    padding:4px 10px 4px 4px;
+    font-size:1.2em;
+    color:#fff;
+}
+
+#contactform p{
+    font-size:85%;
+    line-height:1.6em;
+    margin-bottom:15px;
+    color:#444;
+}
+
+#contactform h3{
+    font-weight:normal;
+    margin:0 0 30px 0;
+    color:#fff;
+    font-family: 'Happy Monkey', Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 1px #555;
+    font-size:1.6em;
+    letter-spacing:.05em;
+}
+
+
+#contactform input, #contactform textarea{
+    background:#e4e2ce;
+    margin-bottom:20px;
+    margin-top:5px;
+    padding:5px;
+    border:2px solid #3084a4;
+    border-radius:5px;
+    font-family: Arimo, Verdana, Arial, Helvetica, sans-serif;
+    font-size:1.1em;
+}
+
+#contactform input#nome, #contactform input#email,#contactform input#nascimento{
+    width:500px;
+}
+
+#contactform textarea#message{
+    width:500px;
+    height:200px;
+}
+
+
+#contactform textarea#message{
+
+    bckground-image: url(form.jpg);
+    background-position: 98% 99%;
+    background-repeat: no-repeat;
+    background-color: #e4e2ce;
+    background:url(forms01.jpg) 98% 99% no-repeat #e4e2ce;
+}
+
+
+#contactform input:focus, #contactform textarea:focus{
+    border:2px solid #b21d1f;
+    background:#fff;
+}
+
+
+#contactform input#sendbutton {
+    background: #3084a4;
+    border:1px solid #3084a4;
+    color:#fff;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+    padding:5px 10px;
+    font-size:1.2em;
+    margin-left:30px;
+    border-radius:5px;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 4px 4px #5d6257;
+}
+
+#contactform input#sendbutton:active{
+    border:1px solid #3084a4;
+}
+
+#contactform input#sendbutton:hover, #contactform input#sendbutton:focus{
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 1px 4px #5d6257;
+    cursor:pointer;
+}
+
+.mensagem{
+    float: left;
+    margin:20px;
+}
+
+/*configuração de footer*/
 footer {
-    background-color: #5270ff;
+    background-color: #247f97;
+    border-radius: 10px;
     opacity: 0.6;
     height:15px;
     clear:both; /* vacina anti-float - retira o contágio do float */
