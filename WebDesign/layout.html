@@ -5,22 +5,23 @@
 <title>LukHash</title>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/scripts.js"></script>
 </head>
 <body>
 <div id="container">
   <header>
-      <img id="logo" src="img/logojpg" />
+      <img class="logo" src="img/logojpg" />
   </header>
     <!-- menu-->
   <nav>
    <ul>
-   	 <li><a href="#">Novidades</a></li>
-     <li><a href="#">Sobre</a></li>
-     <li><a href="#">Discografia</a></li>
-     <li><a href="#">Dowload</a></li>
-     <li><a href="#">Galeria</a></li>
-     <li><a href="#">Contato</a></li>
+   	 <li><a href="#"  onclick="GetPage('novidades');">Novidades</a></li>
+     <li><a href="#" onclick="GetPage('sobre');" >Sobre</a></li>
+     <li><a href="#" onclick="GetPage('discografia');">Discografia</a></li>
+     <li><a href="#" onclick="GetPage('dowload');">Dowload</a></li>
+     <li><a href="#" onclick="GetPage('galeria');">Galeria</a></li>
+     <li><a href="#" onclick="GetPage('contato');">Contato</a></li>
    </ul> 
   </nav>
 
@@ -35,7 +36,7 @@
 
   </main>
   <footer>
-    <p>Aqui é o rodapé</p>
+    <p>COPYRIGHT © 2014 Isvaldo & Vertein</p>
   </footer>
 </div>
 <!-- fecha container -->

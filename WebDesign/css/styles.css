@@ -3,10 +3,10 @@
 Trabalho de avaliação  WebDesign
 Folha de estilos
 By: Isvaldo Fernades Souza, Guilherme d Avila Vertein
-
-
 */
 
+
+/*Configuração global*/
 body {
     font-family:Verdana, Geneva, sans-serif;
     background: #000000;
@@ -18,8 +18,13 @@ body {
 }
 
 
-#logo{
+.logo{
     width: 100% !important;
+}
+
+.logosobre{
+    width: 100% !important;
+    opacity: 0.5;
 }
 
 
@@ -56,6 +61,15 @@ main {
 }
 
 
+/*Configuração de posicionamento*/
+.center{
+    width:960px; /* a largura permite que a caixa seguinte fique ao lado */
+    box-sizing:border-box; /* evita que o padding e border sejam considerados na largura ou altura */
+    padding:10px;
+    height:auto;
+    min-height:30px;
+}
+
 .left {
 	background-color:#633;
 	height:400px;
@@ -72,8 +86,42 @@ main {
 	box-sizing:border-box; /* evita que o padding e border sejam considerados na largura ou altura */
 	padding:10px;
 }
+
+
+
+/*Layout Especifico*/
+
+.article-img{
+    float:left;
+    margin-right: 5px;
+}
+.article-iframe{
+    float:left;
+    margin-right: 10px;
+}
+/*Section, configuração de blocos*/
+section{
+    color:#FFFFFF;
+}
+
+section h1{
+    text-align: center;
+}
+
+/*configuração de article*/
+article,h1{
+    clear:both;
+    margin: 10px;
+    color: #ffffff;
+}
+
+figure figcaption{clear:both;}
+
+/*configuração de footer*/
+
 footer {
-	background-color:#090;
-	height:15px;
-	clear:both; /* vacina anti-float - retira o contágio do float */
+    background-color: #5270ff;
+    opacity: 0.6;
+    height:15px;
+    clear:both; /* vacina anti-float - retira o contágio do float */
 }
