@@ -40,6 +40,7 @@ function comentario(){
     var email = $('#email').val();
     if (!IsEmail(email)) {
         alert('digite um email valido');
+        $('#email').focus();
         return False;
     }
     var message = $('#message').val();
@@ -73,3 +74,5 @@ function GetPage(page) {
         }});
     return false;
 }
+
+

@@ -3,10 +3,24 @@
 1)alterar as datas
 2) seria legal tocar a musica quando clicar (legal mas não que de tempo rs)
 -->
+<script>
+    $(document).ready(function(){
+        $('.galeria-img').mouseover(function(){
+            $(this).css('opacity','1.0');
+            $(this).css('border-color','#D8D819 #D8D819');
+        });
+
+
+        $('.galeria-img').mouseleave(function(){
+            $(this).css('opacity','0.7');
+            $(this).css('border','1px #247f97 solid');
+        });
+    });
+</script>
 <section class="center">
     <article>
         <header>
-            <h1>FALLING APART</h1>
+            <h1 class="title medio">FALLING APART</h1>
             Versão: <time class="updated" datetime="2014-09-07 11:11:03-0400" pubdate>08/07/2010</time>
             <p>
                 By <span>LukHash</span>
@@ -39,7 +53,7 @@
 
     <article>
         <header>
-            <h1>DIGITAL MEMORIES</h1>
+            <h1 class="title medio" >DIGITAL MEMORIES</h1>
             Versão: <time class="updated" datetime="2014-09-07 11:11:03-0400" pubdate>08/07/2010</time>
             <p>
                 By <span>LukHash</span>
@@ -73,7 +87,7 @@
 
     <article>
         <header>
-            <h1>DEAD PIXELS</h1>
+            <h1 class="title medio" >DEAD PIXELS</h1>
             Versão: <time class="updated" datetime="2014-09-07 11:11:03-0400" pubdate>08/07/2010</time>
             <p>
                 By <span>LukHash</span>
@@ -107,7 +121,7 @@
 
     <article>
         <header>
-            <h1>THE FAR END OF THE WORLD</h1>
+            <h1 class="title medio" >THE FAR END OF THE WORLD</h1>
             Versão: <time class="updated" datetime="2014-09-07 11:11:03-0400" pubdate>08/07/2010</time>
             <p>
                 By <span>LukHash</span>
@@ -141,7 +155,7 @@
 
     <article>
         <header>
-            <h1>PSYCHE</h1>
+            <h1 class="title medio" >PSYCHE</h1>
             Versão: <time class="updated" datetime="2014-09-07 11:11:03-0400" pubdate>08/07/2010</time>
             <p>
                 By <span>LukHash</span>
@@ -172,7 +186,7 @@
 
     <article>
         <header>
-            <h1>3AM</h1>
+            <h1 class="title medio" >3AM</h1>
             Versão: <time class="updated" datetime="2014-09-07 11:11:03-0400" pubdate>08/07/2010</time>
             <p>
                 By <span>LukHash</span>
@@ -199,4 +213,4 @@
         </figure>
 
     </article>
-    </section>
+</section>
