@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60582b3-434d-4b00-b3c4-1a8c8ea9ccc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/discografia.html" afterPath="$PROJECT_DIR$/WebDesign/pages/discografia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/galeria.html" afterPath="$PROJECT_DIR$/WebDesign/pages/galeria.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/novidades.html" afterPath="$PROJECT_DIR$/WebDesign/pages/novidades.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/comentario.html" afterPath="$PROJECT_DIR$/WebDesign/pages/comentario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/layout.html" afterPath="$PROJECT_DIR$/WebDesign/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/js/scripts.js" afterPath="$PROJECT_DIR$/WebDesign/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/sobre.html" afterPath="$PROJECT_DIR$/WebDesign/pages/sobre.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/css/styles.css" afterPath="$PROJECT_DIR$/WebDesign/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,31 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebDesign/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.592592" vertical-offset="47" max-vertical-offset="756">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.3300423" vertical-offset="162" max-vertical-offset="972">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comentario.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.0" vertical-offset="0" max-vertical-offset="1224">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48305085" vertical-offset="2268" max-vertical-offset="5076">
-              <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contato.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="486">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="25" />
+            <state vertical-scroll-proportion="-16.285715" vertical-offset="498" max-vertical-offset="5346">
+              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -64,61 +62,11 @@
       <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1512">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1566">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comentario.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.666666" vertical-offset="0" max-vertical-offset="1224">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="galeria.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/galeria.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="918">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sobre.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/sobre.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="432">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="discografia.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/discografia.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.592592" vertical-offset="3269" max-vertical-offset="3978">
-              <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="novidades.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/novidades.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.444445" vertical-offset="474" max-vertical-offset="1548">
-              <caret line="48" column="38" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,15 +86,15 @@
       <list>
         <option value="$PROJECT_DIR$/WebDesign/index.html" />
         <option value="$PROJECT_DIR$/WebDesign/css/style.css" />
-        <option value="$PROJECT_DIR$/WebDesign/layout.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/contato.html" />
-        <option value="$PROJECT_DIR$/WebDesign/pages/comentario.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/novidades.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/sobre.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/galeria.html" />
-        <option value="$PROJECT_DIR$/WebDesign/js/scripts.js" />
         <option value="$PROJECT_DIR$/WebDesign/pages/discografia.html" />
+        <option value="$PROJECT_DIR$/WebDesign/pages/comentario.html" />
         <option value="$PROJECT_DIR$/WebDesign/css/styles.css" />
+        <option value="$PROJECT_DIR$/WebDesign/js/scripts.js" />
+        <option value="$PROJECT_DIR$/WebDesign/layout.html" />
       </list>
     </option>
   </component>
@@ -264,6 +212,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infnet git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infnet git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebDesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -344,7 +310,11 @@
       <created>1409957917274</created>
       <updated>1409957917274</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="detalhes de layout">
+      <created>1409960816846</created>
+      <updated>1409960816846</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -391,7 +361,8 @@
     <MESSAGE value="Pagina sobre +  Novidades" />
     <MESSAGE value="Discografia" />
     <MESSAGE value="Contato + comentario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contato + comentario" />
+    <MESSAGE value="detalhes de layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="detalhes de layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -418,76 +389,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.592592" vertical-offset="47" max-vertical-offset="756">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="486">
+        <state vertical-scroll-proportion="0.10155148" vertical-offset="0" max-vertical-offset="709">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.666666" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/discografia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.592592" vertical-offset="3269" max-vertical-offset="3978">
-          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/sobre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="432">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/galeria.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.05077574" vertical-offset="0" max-vertical-offset="918">
           <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/sobre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10344828" vertical-offset="0" max-vertical-offset="696">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/discografia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36530325" vertical-offset="3269" max-vertical-offset="3978">
+          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/novidades.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.444445" vertical-offset="474" max-vertical-offset="1548">
+        <state vertical-scroll-proportion="0.5603448" vertical-offset="474" max-vertical-offset="1548">
           <caret line="48" column="38" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.285715" vertical-offset="498" max-vertical-offset="5346">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1512">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1566">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48305085" vertical-offset="2268" max-vertical-offset="5076">
-          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+        <state vertical-scroll-proportion="-24.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3300423" vertical-offset="162" max-vertical-offset="972">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>

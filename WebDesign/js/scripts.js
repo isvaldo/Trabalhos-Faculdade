@@ -6,7 +6,7 @@
 
 function limpaform(id){
     /*Limpa todos os campos um a um
-    * recebe id*/
+     * recebe id*/
     $('#'+id).each (function(){
         this.reset();
     });
@@ -54,12 +54,12 @@ function comentario(){
 
     var msg =
         ['<article>',
-         '<header class="mensagem">',
+            '<header class="mensagem">',
             '<h1>Comentario</h1>',
-            'Data: <time class="updated" pubdate>'+output+'</time>',
-            'Nome:<p>'+nome+'</p>',
+                'Data: <time class="updated" pubdate>'+output+'</time>',
+                'Nome:<p>'+nome+'</p>',
             '</header>',
-            '<p class="mensagem">'+message+'</p>',
+                '<p class="mensagem">'+message+'</p>',
             '</article>'
         ].join('\n');
     $('section:first').append(msg).hide().fadeIn(1000);
@@ -67,7 +67,10 @@ function comentario(){
     return false;
 }
 // retorna uma pagina por ajax pelo nome
-function GetPage(page) {
+function GetPage(page,elemento) {
+    $('.ativo').removeClass('ativo');
+    $(elemento).addClass('ativo');
+    console.log($(this));
     $.ajax({
         url: "pages/"+page+'.html', success: function (ajaxresult) {
             $("main").html(ajaxresult);
