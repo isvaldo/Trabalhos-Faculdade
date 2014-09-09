@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60582b3-434d-4b00-b3c4-1a8c8ea9ccc7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/discografia.html" afterPath="$PROJECT_DIR$/WebDesign/pages/discografia.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/novidades.html" afterPath="$PROJECT_DIR$/WebDesign/pages/novidades.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="infnet git.iws" />
@@ -25,50 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1008">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40960452" vertical-offset="3742" max-vertical-offset="5346">
-              <caret line="224" column="92" selection-start-line="224" selection-start-column="92" selection-end-line="224" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contato.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="468">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comentario.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25926" vertical-offset="515" max-vertical-offset="1224">
-              <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.642858" vertical-offset="108" max-vertical-offset="1530">
+            <state vertical-scroll-proportion="0.38135594" vertical-offset="108" max-vertical-offset="1530">
               <caret line="25" column="118" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
               <folding />
             </state>
@@ -91,10 +53,8 @@
         <option value="$PROJECT_DIR$/WebDesign/css/style.css" />
         <option value="$PROJECT_DIR$/WebDesign/pages/sobre.html" />
         <option value="$PROJECT_DIR$/WebDesign/layout.html" />
-        <option value="$PROJECT_DIR$/WebDesign/pages/discografia.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/galeria.html" />
         <option value="$PROJECT_DIR$/WebDesign/index.html" />
-        <option value="$PROJECT_DIR$/WebDesign/pages/novidades.html" />
         <option value="$PROJECT_DIR$/WebDesign sem ajax/pages/comentario.html" />
         <option value="$PROJECT_DIR$/WebDesign sem ajax/pages/contato.html" />
         <option value="$PROJECT_DIR$/WebDesign sem ajax/pages/discografia.html" />
@@ -111,6 +71,8 @@
         <option value="$PROJECT_DIR$/WebDesign/js/scripts.js" />
         <option value="$PROJECT_DIR$/WebDesign/pages/contato.html" />
         <option value="$PROJECT_DIR$/WebDesign/css/styles.css" />
+        <option value="$PROJECT_DIR$/WebDesign/pages/discografia.html" />
+        <option value="$PROJECT_DIR$/WebDesign/pages/novidades.html" />
       </list>
     </option>
   </component>
@@ -332,12 +294,16 @@
       <created>1410295174664</created>
       <updated>1410295174664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add cidade">
+      <created>1410295209250</created>
+      <updated>1410295209250</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1602" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -427,70 +393,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/discografia.html">
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12693936" vertical-offset="0" max-vertical-offset="3978">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state vertical-scroll-proportion="-35.333332" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/galeria.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/sobre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10344828" vertical-offset="0" max-vertical-offset="696">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/novidades.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.777778" vertical-offset="762" max-vertical-offset="1512">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.642858" vertical-offset="108" max-vertical-offset="1530">
-          <caret line="25" column="118" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1404">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/comentario.html">
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/sobre.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25926" vertical-offset="515" max-vertical-offset="1224">
-          <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="432">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="468">
+        <state vertical-scroll-proportion="0.27926657" vertical-offset="0" max-vertical-offset="709">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/index.html">
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/discografia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1008">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3888">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40960452" vertical-offset="3742" max-vertical-offset="5346">
+        <state vertical-scroll-proportion="3.8418078" vertical-offset="1312" max-vertical-offset="5346">
           <caret line="224" column="92" selection-start-line="224" selection-start-column="92" selection-end-line="224" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1777151" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38135594" vertical-offset="108" max-vertical-offset="1530">
+          <caret line="25" column="118" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
           <folding />
         </state>
       </provider>
