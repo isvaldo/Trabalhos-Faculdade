@@ -21,13 +21,14 @@ function valida_contato(){
     /*è acionada depois do submit, avisa atravez se email é valido*/
     //Evita que form seja enviado
     event.preventDefault();
+    $('#msg_email').html('');
     //as validações de preenchimento o atributo required já resolve, isso é so para reforçar
     if ( $('#nome').val() && IsEmail($('#email').val()) && $('#nascimento').val() && $('#message').val()) {
         alert('Obrigado '+$('#nome').val()+'. Sua mensagem foi enviada com sucesso');
         limpaform('contactform');
     }else{
         // unico erro possivel apos submit
-        alert('digite um email valido');
+        $('#msg_email').html('Email invalido !').css('color','#EB0000');
         $('#email').focus();
     }
     return false;
@@ -36,10 +37,11 @@ function valida_contato(){
 // adiciona um comentario de forma fake na pagina
 function comentario(){
     event.preventDefault();
+    $('#msg_email').html('');
     var nome = $('#nome').val();
     var email = $('#email').val();
     if (!IsEmail(email)) {
-        alert('digite um email valido');
+        $('#msg_email').html('Email invalido !').css('color','#EB0000');
         $('#email').focus();
         return False;
     }
