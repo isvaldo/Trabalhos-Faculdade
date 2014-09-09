@@ -222,7 +222,7 @@ figure ul li:hover{
     font-size:1.1em;
 }
 
-#contactform input#nome, #contactform input#email,#contactform input#nascimento{
+#contactform input#nome, #contactform input#email,#contactform input#nascimento,input#cidade{
     width:500px;
 }
 

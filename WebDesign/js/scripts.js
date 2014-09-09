@@ -23,7 +23,7 @@ function valida_contato(){
     event.preventDefault();
     $('#msg_email').html('');
     //as validações de preenchimento o atributo required já resolve, isso é so para reforçar
-    if ( $('#nome').val() && IsEmail($('#email').val()) && $('#nascimento').val() && $('#message').val()) {
+    if ( $('#nome').val() && IsEmail($('#email').val()) && $('#nascimento').val() && $('#message').val() && $('#cidade')) {
         alert('Obrigado '+$('#nome').val()+'. Sua mensagem foi enviada com sucesso');
         limpaform('contactform');
     }else{

@@ -1,61 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c60582b3-434d-4b00-b3c4-1a8c8ea9ccc7" name="Default" comment="enviando versao sem ajax">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/comentario.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/contato.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/discografia.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/galeria.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/album1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/album2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/album3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/album4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/album5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/album6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/bg9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/dz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/favicon_light.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/it.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/jm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/lfm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/logojpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/news12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/news13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/sc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/sobre.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/spot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/img/yt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/novidades.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign2/sobre.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/comentario.html" afterPath="$PROJECT_DIR$/WebDesign/pages/comentario.html" />
+    <list default="true" id="c60582b3-434d-4b00-b3c4-1a8c8ea9ccc7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/pages/contato.html" afterPath="$PROJECT_DIR$/WebDesign/pages/contato.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/js/scripts.js" afterPath="$PROJECT_DIR$/WebDesign/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/css/styles.css" afterPath="$PROJECT_DIR$/WebDesign/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="infnet git.iws" />
@@ -82,8 +31,18 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebDesign/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1008">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1008">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="3796" max-vertical-offset="5346">
+              <caret line="224" column="92" selection-start-line="224" selection-start-column="92" selection-end-line="224" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -92,8 +51,8 @@
       <file leaf-file-name="contato.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="432">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="73" />
+            <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="468">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -109,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10451978" vertical-offset="268" max-vertical-offset="1530">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state vertical-scroll-proportion="-9.642858" vertical-offset="108" max-vertical-offset="1530">
+              <caret line="25" column="118" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -134,7 +93,6 @@
       <list>
         <option value="$PROJECT_DIR$/WebDesign/css/style.css" />
         <option value="$PROJECT_DIR$/WebDesign/pages/sobre.html" />
-        <option value="$PROJECT_DIR$/WebDesign/css/styles.css" />
         <option value="$PROJECT_DIR$/WebDesign/layout.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/discografia.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/galeria.html" />
@@ -152,9 +110,10 @@
         <option value="$PROJECT_DIR$/WebDesign sem ajax/comentario.html" />
         <option value="$PROJECT_DIR$/WebDesign sem ajax/discografia.html" />
         <option value="$PROJECT_DIR$/WebDesign sem ajax/galeria.html" />
-        <option value="$PROJECT_DIR$/WebDesign/pages/contato.html" />
         <option value="$PROJECT_DIR$/WebDesign/pages/comentario.html" />
         <option value="$PROJECT_DIR$/WebDesign/js/scripts.js" />
+        <option value="$PROJECT_DIR$/WebDesign/pages/contato.html" />
+        <option value="$PROJECT_DIR$/WebDesign/css/styles.css" />
       </list>
     </option>
   </component>
@@ -258,6 +217,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infnet git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infnet git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebDesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -350,13 +327,18 @@
       <created>1410228216783</created>
       <updated>1410228216783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tirando alert feio">
+      <created>1410293805005</created>
+      <updated>1410293805005</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1602" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -371,7 +353,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -400,7 +381,8 @@
     <MESSAGE value="detalhes de layout" />
     <MESSAGE value="pendente" />
     <MESSAGE value="enviando versao sem ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="enviando versao sem ajax" />
+    <MESSAGE value="tirando alert feio" />
+    <option name="LAST_COMMIT_MESSAGE" value="tirando alert feio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -464,14 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4915254" vertical-offset="1524" max-vertical-offset="5346">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/pages/novidades.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.777778" vertical-offset="762" max-vertical-offset="1512">
@@ -479,18 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/index.html">
+    <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1008">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="432">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="73" />
+        <state vertical-scroll-proportion="-9.642858" vertical-offset="108" max-vertical-offset="1530">
+          <caret line="25" column="118" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
           <folding />
         </state>
       </provider>
@@ -503,10 +469,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebDesign/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/WebDesign/pages/contato.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10451978" vertical-offset="268" max-vertical-offset="1530">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="468">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDesign/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="3796" max-vertical-offset="5346">
+          <caret line="224" column="92" selection-start-line="224" selection-start-column="92" selection-end-line="224" selection-end-column="92" />
           <folding />
         </state>
       </provider>
