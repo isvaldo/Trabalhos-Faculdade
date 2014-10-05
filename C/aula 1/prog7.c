@@ -4,6 +4,7 @@
 *7. Faça um algoritmo que calcule a área de um retângulo,     *
 * sendo que os comprimentos da altura e da base são informados*
 * pelo usuário. A área do retângulo é calculada               *
+*multiplicando-se a altura pela base.                         *
 ***************************************************************/
 float base;
 float altura;
