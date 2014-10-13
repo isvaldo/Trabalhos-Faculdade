@@ -40,42 +40,42 @@ public class prog2{
 			
 			case 5:
 			System.out.print("Maio:\n");
-						System.out.print("Dia das Mães");
+			System.out.print("Dia das Mães");
 			break;
 			
 			case 6:
 			System.out.print("Junho:\n");
-							System.out.print("Dia de São João");
+			System.out.print("Dia de São João");
 			break;
 			
 			case 7:
 			System.out.print("Julho:\n");
-								System.out.print("Dia da Liberdade de Pensamento");
+			System.out.print("Dia da Liberdade de Pensamento");
 			break;
 			
 			case 8:
 			System.out.print("Agosto:\n");
-									System.out.print("Dia dos Pais");
+			System.out.print("Dia dos Pais");
 			break;
 			
 			case 9:
 			System.out.print("Setembro:\n");
-										System.out.print("Independência do Brasil");
+			System.out.print("Independência do Brasil");
 			break;
 			
 			case 10:
 			System.out.print("Outubro:\n");
-											System.out.print("Dia das Bruxas - Halloween ");
+			System.out.print("Dia das Bruxas - Halloween ");
 			break;
 			
 			case 11:
 			System.out.print("Novembro:\n");
-												System.out.print("Proclamação da República");
+			System.out.print("Proclamação da República");
 			break;
 			
 			case 12:
 			System.out.print("Dezembro:\n");
-													System.out.print("Reveillon");
+			System.out.print("Reveillon");
 			break;
 			
 			default:
