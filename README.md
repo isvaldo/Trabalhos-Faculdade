@@ -1,4 +1,4 @@
 infnet
 ======
 
-Trabalhos da faculdade
+Trabalhos e projetos publicos relacionados ao instituto infnet
