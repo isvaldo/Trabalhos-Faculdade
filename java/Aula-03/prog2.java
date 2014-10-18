@@ -3,6 +3,7 @@
 * vetor indicando, para um determinado elemento, se ele é múltiplo de 2, 3,
 * 5 ou 7.
  */
+ 
 
 import java.util.Random;
 public class prog2 {
