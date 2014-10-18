@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define TRUE 1
 #define FALSE 0
 /*
 * Faça um algoritmo que leia um intervalo inferior e superior,
