@@ -17,7 +17,7 @@
 
  */
 
-public  class diagonal {
+public  class diagonalDupla {
 	public static void main(String[] args) {
 		int[][] mvetor = new int [10] [10];
 		
@@ -33,9 +33,12 @@ public  class diagonal {
 	
 	public static int[][] corte(int[][] vetor) {
 		int posicao = 0;
+		int posicao2 = vetor[0].length-1;
 		for(int i=0;i<vetor.length;i++) {
 			vetor[i][posicao]=1;
-			posicao++;		
+			vetor[i][posicao2]=1;
+			posicao2--;
+			posicao++;
 		}
 		return vetor;
 	}
