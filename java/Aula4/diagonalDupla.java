@@ -2,22 +2,23 @@
 /*
  * Programa para estudar matriz multidimensional
  * 
- * corte diagonal na matriz
+ * corte nas duas diagonais
  * Saida
-1000000000
-0100000000
-0010000000
-0001000000
-0000100000
-0000010000
-0000001000
-0000000100
-0000000010
-0000000001
+1000000001
+0100000010
+0010000100
+0001001000
+0000110000
+0000110000
+0001001000
+0010000100
+0100000010
+1000000001
+
 
  */
 
-public  class diagonal {
+public  class diagonalDupla {
 	public static void main(String[] args) {
 		int[][] mvetor = new int [10] [10];
 		
@@ -33,9 +34,12 @@ public  class diagonal {
 	
 	public static int[][] corte(int[][] vetor) {
 		int posicao = 0;
+		int posicao2 = vetor[0].length-1;
 		for(int i=0;i<vetor.length;i++) {
 			vetor[i][posicao]=1;
-			posicao++;		
+			vetor[i][posicao2]=1;
+			posicao2--;
+			posicao++;
 		}
 		return vetor;
 	}
