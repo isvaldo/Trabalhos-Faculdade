@@ -31,7 +31,7 @@ public  class diagonalDupla {
 		
 		
 	}
-	
+	// essa função faz o corte preenchendo com 1, formando um X
 	public static int[][] corte(int[][] vetor) {
 		int posicao = 0;
 		int posicao2 = vetor[0].length-1;
