@@ -13,12 +13,15 @@ void ler(char vetorString[5][255]){
 
 
 
+
 main () {
     char nomes[5][255];
     ler(nomes);
     puts("Hora da verdade");
     int i;
-    
+     for(i=0;i<5;i++) {
+           printf("%s\n",nomes[i]);
+        }
 
 
 }
