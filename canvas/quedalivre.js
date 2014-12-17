@@ -1,4 +1,4 @@
- window.onload = function(){
+window.onload = function(){
             // criando objeto canvas e colocando ele na tela
             var canvas = document.createElement("canvas");
             var c = canvas.getContext("2d");
@@ -11,6 +11,15 @@
 
             var x = canvas.width/2;
             var y  = canvas.height/2;
+
+            // Desenhando particula
+            function draw (context) {
+                context.beginPath();
+                context.arc(x, y, 10, 0, Math.PI * 2, true);
+                context.closePath();
+                context.fill();
+
+            }
             var process = setInterval(function() {
                         y += 0.5;
                         console.log(y);
@@ -23,16 +32,10 @@
                         // quando chegar no "chão"
                         if (y == canvas.height -10) {
                             c.fillStyle = "red";
-                            c.beginPath();
-                            c.arc(x, y, 10, 0, Math.PI * 2, true);
-                            c.closePath();
-                            c.fill();
+                            draw(c);
                             clearInterval(process);
                         }
-                        c.beginPath();
-                        c.arc(x, y, 10, 0, Math.PI * 2, true);
-                        c.closePath();
-                        c.fill();
+                        draw(c);
                     }
                     , 30);
 
