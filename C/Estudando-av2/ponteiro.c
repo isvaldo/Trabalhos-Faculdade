@@ -1,11 +1,6 @@
-#include <stdio.h>
-
-void teste (int *teste) {
-    *teste = 6;
-}
 main(){
-int ola= 2;
-    teste(&ola);
-printf("%d",ola);
-
+    int d;
+    puts("coloque um caracter");
+    scanf("%d",&d);
+    printf("\n\n\nOla mundo, você digitou : %d\n\n\n\n",d);
 }
