@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**************************************
  Arvore de natal
+ by Isvaldo
 **************************************/
 
 void spaces(int qt) {
