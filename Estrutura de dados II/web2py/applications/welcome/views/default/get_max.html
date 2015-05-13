@@ -1,0 +1,10 @@
+<h3>Preencha com uma lista separada por virgula</h3>
+        <p>ex: 1,2,5,6,7</p>
+{{=form}}
+
+
+       {{try:}}
+        <h1>{{if valor:
+        }}Resposta:{{=valor}} {{pass}}</h1>
+        {{except:}}
+        {{pass}}

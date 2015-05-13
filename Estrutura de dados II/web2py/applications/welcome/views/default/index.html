@@ -1,0 +1,59 @@
+{{extend 'layout.html'}}
+
+{{block header}}
+<header class="container-fluid background{{=templete}}">
+    <div class="jumbotron text-center">
+    {{if response.title:}}
+        <h1 id="powerOn">Recursão
+            <small></small>
+        </h1>
+    {{pass}}
+    </div>
+</header>
+{{end}}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2 class="text-center">Selecione o Exercicio</h2>
+    {{=form}}
+    </div>
+</div>
+
+<div class="panel panel-info">
+    <div class="panel-heading"><h3 class="panel-title">
+        <i class="glyphicon glyphicon-cog"></i>Algoritmo
+    </h3></div>
+    <div class="panel-body" id="ex">
+    {{=LOAD('default','max_recursive')}}
+    </div>
+
+
+</div>
+
+<script type="application/javascript">
+    $(document).ready(function () {
+
+        $("#no_table_select").change(function () {
+
+            switch (this.value){
+                case 'MDC':
+                        web2py_component("max_no_recursive","ex");
+                    break;
+
+                case 'MAX':
+                        web2py_component("get_max","ex");
+                    break;
+
+                 case 'MDC RECURSIVO':
+                        web2py_component("max_recursive","ex");
+                    break;
+                default:
+                    alert("valor invalido");
+                    break;
+
+            }
+        });
+
+    });
+</script>
