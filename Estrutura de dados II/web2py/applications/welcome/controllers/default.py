@@ -18,7 +18,7 @@ def index():
     :return:
     '''
     templete = random.randint(1, 5)
-    response.flash = "Templete " + str(templete)
+    response.flash = "Layout " + str(templete)
 
     form = SQLFORM.factory(
         Field('select', label="Algoritmo", requires=IS_IN_SET(["MDC", "MDC RECURSIVO", "MAX"]))
