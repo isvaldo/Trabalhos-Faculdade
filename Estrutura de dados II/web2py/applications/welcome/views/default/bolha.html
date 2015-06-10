@@ -1,138 +1,13 @@
-# -*- coding: utf-8 -*-
 
-# Controller da aplicação
-# Trabalho para avaliação EDA2
-import random
-
-
-def index():
-    '''
-    Formulario de entrada
-    :return:
-    '''
-    templete = random.randint(1, 5)
-    response.flash = "Layout " + str(templete)
-
-    form = SQLFORM.factory(
-        Field('select', label="Algoritmo", requires=IS_IN_SET(["MDC NAO RECURSIVO",
-                                                               "MDC RECURSIVO",
-                                                               "MAIOR NUMERO",
-                                                               "QUICKSORT",
-                                                               "BOLHA (lista Encadeada)"]))
-    )
-    submit = form.element('input', _type='submit')
-    submit['_style'] = 'display:none;'
-
-    if form.process().accepted:
-        print form.vars
-
-    return dict(form=form, templete=templete)
-
-
-def teste():
-    response.flash ="Parte Extra, ainda estou implementando (:"
-    return dict()
-
-
-def rec_mdc(a, b): return b if (a % b == 0) else rec_mdc(b, a % b)
-
-
-def mdc(a, b):
-    while True:
-        if a % b == 0: return b
-        a, b = b, a % b
-
-
-def max_array(array):
-    if len(array) == 1: return array[0]
-    array[1] = array[0] if array[0] > array[1] else array[1]
-    return max_array(array[1:])
-
-
-def max_no_recursive():
-    form = SQLFORM.factory(
-        Field('a', label="Entrada A", requires=IS_INT_IN_RANGE(1, 100000)),
-        Field('b', label="Entrada B", requires=IS_INT_IN_RANGE(1, 100000)),
-
-    )
-    if form.process().accepted:
-        valor = mdc(int(form.vars.a), int(form.vars.b))
-        return dict(form=form, valor=valor)
-    return dict(form=form)
-
-
-def max_recursive():
-    form = SQLFORM.factory(
-        Field('a', label="Entrada A", requires=IS_INT_IN_RANGE(1, 100000)),
-        Field('b', label="Entrada B", requires=IS_INT_IN_RANGE(1, 100000))
-    )
-    if form.process().accepted:
-        valor = mdc(int(form.vars.a), int(form.vars.b))
-        return dict(form=form, valor=valor)
-
-    return dict(form=form)
-
-
-def get_max():
-    form = SQLFORM.factory(
-        Field('lista', label="lista", requires=IS_NOT_EMPTY())
-    )
-    if form.process().accepted:
-        try:
-            Str = str(form.vars.lista).split(",")
-            vetor = [int(n) for n in Str]
-            valor = max_array(vetor)
-        except:
-            response.flash = "ERRO, formato invalido, tente '1,2,3'"
-            return dict(form=form)
-
-        return dict(form=form, valor=valor)
-    return dict(form=form)
-
-
-
-def bolha():
-    form = SQLFORM.factory(
-        Field('lista', label="lista", requires=IS_NOT_EMPTY())
-    )
-    if form.process().accepted:
-        try:
-            Str = str(form.vars.lista).split(",")
-            vetor = [int(n) for n in Str]
-            lista = ListaPersonalizada()
-            for i in vetor:
-                lista.add(i)
-            bubbleSort(lista)
-
-            valor = []
-            for i in lista:
-                valor.append(i.valor)
-
-        except:
-            response.flash = "ERRO, formato invalido, tente '1,2,3'"
-            return dict(form=form)
-
-        return dict(form=form, valor=valor)
-    return dict(form=form)
-
-
-def quicksort():
-    form = SQLFORM.factory(
-        Field('lista', label="lista", requires=IS_NOT_EMPTY())
-    )
-    if form.process().accepted:
-        try:
-            Str = str(form.vars.lista).split(",")
-            vetor = [int(n) for n in Str]
-            valor = ksort(vetor)
-        except:
-            response.flash = "ERRO, formato invalido, tente '1,2,3'"
-            return dict(form=form)
-
-        return dict(form=form, valor=valor)
-    return dict(form=form)
-
-
+<h3>Ordenação em bolha</h3>
+{{=form}}
+        {{try:}}
+        <h1>{{if valor:
+        }}Resposta:{{=valor}}{{pass}}</h1>
+        {{except:}}
+        {{pass}}
+        <h3>Codigo simplificado</h3>
+        <pre>
 class ItensPersonalizados():
     def __init__(self, valor):
         """
@@ -287,34 +162,10 @@ def bubbleSort(ListaEspecial):
                 ListaEspecial.set(i, ListaEspecial.get(i+1))
                 ListaEspecial.set(i+1, temp)
 
+        </pre>
+        <a target="_blank" href="https://github.com/isvaldo/Trabalhos-Faculdade/blob/master/Estrutura%20de%20dados%20II/web2py/applications/welcome/controllers/default.py">
+            Veja o Codigo Completo e comentado
+        </a>
 
-def ksort(vetor):
-    if len(vetor) <= 1:
-        return vetor # uma lista vazia ou com 1 elemento ja esta ordenada
-    menor, igual, maior = [], [], [] # cria as sublistas dos maiores, menores e iguais ao pivo
-    pivo = vetor[0] # escolhe o pivo. neste caso, o primeiro elemento do vetor
-    for x in vetor:
-# adiciona o elemento x a lista correspondeste
-        if x < pivo:
-            menor.append(x)
-        elif x == pivo:
-            igual.append(x)
-        else:
-            maior.append(x)
-    return ksort(menor) + igual + ksort(maior) #soma das listas
-
-
-
-def user():
-    return dict(form=auth())
-
-
-@cache.action()
-def download():
-    return response.download(request, db)
-
-
-def call():
-    return service()
-
-
+        <h3>Funcionamento Passo a Passo</h3>
+<iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=class+ItensPersonalizados()%3A%0A++++def+__init__(self,+valor)%3A%0A++++++++self.esquerda+%3D+0%0A++++++++self.direita+%3D+0%0A++++++++self.valor+%3D+valor%0A%0A%0Aclass+ListaPersonalizada()%3A%0A%0A++++def+__init__(self)%3A%0A++++++++self.emulaLista+%3D+list()%0A%0A++++def+add(self,+item)%3A%0A++++++++item+%3D+ItensPersonalizados(item)%0A++++++++self.emulaLista.append(item)%0A++++++++esquerda+%3D0%0A++++++++direita+%3D+1%0A++++++++for+e+in+self.emulaLista%3A%0A++++++++++++e.esquerda+%3D+esquerda%0A++++++++++++e.direita+%3D+direita%0A++++++++++++esquerda+%3D+esquerda+%2B+1%0A++++++++++++direita+%3D+direita+%2B+1%0A++++++++self.emulaLista%5B-1%5D.direita+%3D+0%0A%0A++++def+get(self,+indice)%3A%0A++++++++esquerda+%3D+indice%0A++++++++direita+%3D+indice+%2B+1+if+len(self.emulaLista)+!%3D+indice%2B1+else+0%0A++++++++for+e+in+self.emulaLista%3A%0A++++++++++++if+e.esquerda+%3D%3D+esquerda+and+e.direita+%3D%3D+direita%3A%0A++++++++++++++++return+e.valor%0A++++++++raise+Exception(%22indice+n%C3%A3o+encontrado%22)%0A%0A++++def+remove(self,+indice)%3A%0A++++++++esquerda+%3D+indice%0A++++++++direita+%3D+indice+%2B+1+if+len(self.emulaLista)+!%3D+indice%2B1+else+0%0A++++++++for+e+in+self.emulaLista%3A%0A++++++++++++if+e.esquerda+%3D%3D+esquerda+and+e.direita+%3D%3D+direita%3A%0A++++++++++++++++e.esquerda+%3D+None%0A++++++++++++++++e.direita+%3D+None%0A++++++++++++++++e.valor+%3D+None%0A++++++++++++++++self.coletorDelixo()%0A++++++++++++++++return+True%0A++++++++raise+Exception(%22indice+n%C3%A3o+encontrado%22)%0A%0A++++def+coletorDelixo(self)%3A%0A++++++++for+index+in+range(0,+len(self.emulaLista)-1)%3A%0A++++++++++++if+self.emulaLista%5Bindex%5D.esquerda+is+None+and+self.emulaLista%5Bindex%5D.direita+is+None%3A%0A++++++++++++++++self.emulaLista.remove(index)%0A++++++++esquerda+%3D0%0A++++++++direita+%3D+1%0A++++++++for+e+in+self.emulaLista%3A%0A++++++++++++e.esquerda+%3D+esquerda%0A++++++++++++e.direita+%3D+direita%0A++++++++++++esquerda+%3D+esquerda+%2B+1%0A++++++++++++direita+%3D+direita+%2B+1%0A++++++++self.emulaLista%5B-1%5D.direita+%3D+0%0A%0A++++def+set(self,+indice,+valor)%3A%0A++++++++esquerda+%3D+indice%0A++++++++direita+%3D+indice+%2B+1+if+len(self.emulaLista)+!%3D+indice%2B1+else+0%0A++++++++for+e+in+self.emulaLista%3A%0A++++++++++++if+e.esquerda+%3D%3D+esquerda+and+e.direita+%3D%3D+direita%3A%0A++++++++++++++++e.valor+%3D+valor%0A++++++++++++++++return+True%0A++++++++raise+Exception(%22indice+n%C3%A3o+encontrado%22)%0A%0A++++def+len(self)%3A%0A++++++++return+len(self.emulaLista)%0A%0A%0Adef+bubbleSort(ListaEspecial)%3A%0A++++for+passnum+in+range(ListaEspecial.len()-1,+0,+-1)%3A%0A++++++++for+i+in+range(passnum)%3A%0A++++++++++++if+ListaEspecial.get(i)+%3E+ListaEspecial.get(i%2B1)%3A%0A++++++++++++++++temp+%3D+ListaEspecial.get(i)%0A++++++++++++++++ListaEspecial.set(i,+ListaEspecial.get(i%2B1))%0A++++++++++++++++ListaEspecial.set(i%2B1,+temp)%0A++++++++++++++++%0A%0Alista+%3D+ListaPersonalizada()%0Alista.add(9)%0Alista.add(8)%0Alista.add(7)%0Alista.add(6)%0Aprint+lista.get(0)%0AbubbleSort(lista)%0Aprint+lista.get(0)%0A%0A++++++++%0A&origin=opt-frontend.js&cumulative=true&heapPrimitives=true&textReferences=true&py=2&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=350&codeDivHeight=400"> </iframe>

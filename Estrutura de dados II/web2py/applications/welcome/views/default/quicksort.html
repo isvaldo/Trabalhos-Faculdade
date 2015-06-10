@@ -1,0 +1,30 @@
+<h3>QuickSort</h3>
+{{=form}}
+        {{try:}}
+        <h1>{{if valor:
+        }}Resposta:{{=valor}}{{pass}}</h1>
+        {{except:}}
+        {{pass}}
+        <h3>Codigo simplificado</h3>
+        <pre>
+def ksort(vetor):
+    if len(vetor) <= 1:
+        return vetor # uma lista vazia ou com 1 elemento ja esta ordenada
+    menor, igual, maior = [], [], [] # cria as sublistas dos maiores, menores e iguais ao pivo
+    pivo = vetor[0] # escolhe o pivo. neste caso, o primeiro elemento do vetor
+    for x in vetor:
+# adiciona o elemento x a lista correspondeste
+        if x < pivo:
+            menor.append(x)
+        elif x == pivo:
+            igual.append(x)
+        else:
+            maior.append(x)
+    return ksort(menor) + igual + ksort(maior) #soma das listas
+        </pre>
+        <a target="_blank" href="https://github.com/isvaldo/Trabalhos-Faculdade/blob/master/Estrutura%20de%20dados%20II/web2py/applications/welcome/controllers/default.py">
+            Veja o Codigo Completo e comentado
+        </a>
+
+        <h3>Funcionamento Passo a Passo</h3>
+<iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=def+ksort(vetor)%3A%0A++++if+len(vetor)+%3C%3D+1%3A%0A++++++++return+vetor+%23+uma+lista+vazia+ou+com+1+elemento+ja+esta+ordenada%0A++++menor,+igual,+maior+%3D+%5B%5D,+%5B%5D,+%5B%5D+%23+cria+as+sublistas+dos+maiores,+menores+e+iguais+ao+pivo%0A++++pivo+%3D+vetor%5B0%5D+%23+escolhe+o+pivo.+neste+caso,+o+primeiro+elemento+do+vetor%0A++++for+x+in+vetor%3A%0A%23+adiciona+o+elemento+x+a+lista+correspondeste%0A++++++++if+x+%3C+pivo%3A%0A++++++++++++menor.append(x)%0A++++++++elif+x+%3D%3D+pivo%3A%0A++++++++++++igual.append(x)%0A++++++++else%3A%0A++++++++++++maior.append(x)%0A++++return+ksort(menor)+%2B+igual+%2B+ksort(maior)+%23+concatena+e+retorna+recursivamente%0A%0Aprint+ksort(%5B3,2,1,5,4,8,7,9,4,5,1,5,2,3%5D)&origin=opt-frontend.js&cumulative=true&heapPrimitives=true&textReferences=true&py=2&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=350&codeDivHeight=400"> </iframe>

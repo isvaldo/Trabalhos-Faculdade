@@ -65,6 +65,7 @@
 'edit profile': 'editar perfil',
 'Edit This App': 'Editar esta aplicação',
 'Email and SMS': 'Email e SMS',
+'Enter a value': 'Enter a value',
 'Enter an integer between %(min)g and %(max)g': 'Informe um valor inteiro entre %(min)g e %(max)g',
 'Enviar': 'Enviar',
 'Errors': 'Erros',

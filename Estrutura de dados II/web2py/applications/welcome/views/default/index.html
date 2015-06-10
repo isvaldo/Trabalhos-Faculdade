@@ -25,8 +25,28 @@
         <i class="glyphicon glyphicon-cog"></i>Algoritmo
     </h3></div>
     <div class="panel-body" id="ex">
-    {{=LOAD('default','max_recursive')}}
+        <h3>Grupo</h3>
+        <ul>
+            <li><b>Isvaldo fernandes de souza</b> </li>
+            <li><b>Johan monteiro</b> </li>
+            <li><b>Yan Carvalhal</b> </li>
+
+        </ul>
+    <h2>Instruções</h2>
+     <p> Selecione o algoritmo, preencha o formulario para testar o codigo ou execute passo a passo. Você quem escolhe (:</p>
+
+    <h1>O Codigo esta no link abaixo de cada programa !!! o codigo completo no github !!
+    </h1>
+
+        <h2>
+            <a target="_blank" href="https://github.com/isvaldo/Trabalhos-Faculdade/blob/master/Estrutura%20de%20dados%20II/web2py/applications/welcome/controllers/default.py">
+            Veja o Codigo Completo e comentado
+        </a>
+            </h2>
+
     </div>
+
+
 
 
 </div>
@@ -37,17 +57,26 @@
         $("#no_table_select").change(function () {
 
             switch (this.value){
-                case 'MDC':
+                case 'MDC NAO RECURSIVO':
                         web2py_component("max_no_recursive","ex");
                     break;
 
-                case 'MAX':
+                case 'MAIOR NUMERO':
                         web2py_component("get_max","ex");
                     break;
 
                  case 'MDC RECURSIVO':
                         web2py_component("max_recursive","ex");
                     break;
+
+                case 'QUICKSORT':
+                        web2py_component("quicksort","ex");
+                    break;
+                case 'BOLHA (lista Encadeada)':
+                        web2py_component("bolha","ex");
+                    break;
+
+
                 default:
                     alert("valor invalido");
                     break;

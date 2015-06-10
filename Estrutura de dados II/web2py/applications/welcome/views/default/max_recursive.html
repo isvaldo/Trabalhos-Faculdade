@@ -6,3 +6,13 @@
         }}Resposta:{{=valor}}{{pass}}</h1>
         {{except:}}
         {{pass}}
+             <h3>Codigo simplificado</h3>
+         <pre>
+def rec_mdc(a, b): return b if (a % b == 0) else rec_mdc(b, a % b)
+        </pre>
+        <h3>Codigo</h3>
+        <a target="_blank" href="https://github.com/isvaldo/Trabalhos-Faculdade/blob/master/Estrutura%20de%20dados%20II/web2py/applications/welcome/controllers/default.py">
+            Veja o Codigo Completo e comentado
+        </a>
+        <h3>Funcionamento Passo a Passo</h3>
+        <iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=def+rec_mdc(a,+b)%3A+return+b+if+(a+%25+b+%3D%3D+0)+else+rec_mdc(b,+a+%25+b)%0A%0Aprint+rec_mdc(48,30)%0A&origin=opt-frontend.js&cumulative=true&heapPrimitives=true&textReferences=true&py=2&rawInputLstJSON=%5B%5D&curInstr=14&codeDivWidth=350&codeDivHeight=400"> </iframe>
