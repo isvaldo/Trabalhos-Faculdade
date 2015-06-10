@@ -53,10 +53,13 @@ def max_no_recursive():
     form = SQLFORM.factory(
         Field('a', label="Entrada A", requires=IS_INT_IN_RANGE(1, 100000)),
         Field('b', label="Entrada B", requires=IS_INT_IN_RANGE(1, 100000)),
+        submit_button="Processar"
+
 
     )
     if form.process().accepted:
         valor = mdc(int(form.vars.a), int(form.vars.b))
+        response.flash = valor
         return dict(form=form, valor=valor)
     return dict(form=form)
 
@@ -64,10 +67,12 @@ def max_no_recursive():
 def max_recursive():
     form = SQLFORM.factory(
         Field('a', label="Entrada A", requires=IS_INT_IN_RANGE(1, 100000)),
-        Field('b', label="Entrada B", requires=IS_INT_IN_RANGE(1, 100000))
+        Field('b', label="Entrada B", requires=IS_INT_IN_RANGE(1, 100000)),
+        submit_button="Processar"
     )
     if form.process().accepted:
         valor = mdc(int(form.vars.a), int(form.vars.b))
+        response.flash = valor
         return dict(form=form, valor=valor)
 
     return dict(form=form)
@@ -75,13 +80,15 @@ def max_recursive():
 
 def get_max():
     form = SQLFORM.factory(
-        Field('lista', label="lista", requires=IS_NOT_EMPTY())
+        Field('lista', label="lista", requires=IS_NOT_EMPTY()),
+        submit_button="Processar"
     )
     if form.process().accepted:
         try:
             Str = str(form.vars.lista).split(",")
             vetor = [int(n) for n in Str]
             valor = max_array(vetor)
+            response.flash = valor
         except:
             response.flash = "ERRO, formato invalido, tente '1,2,3'"
             return dict(form=form)
@@ -93,7 +100,8 @@ def get_max():
 
 def bolha():
     form = SQLFORM.factory(
-        Field('lista', label="lista", requires=IS_NOT_EMPTY())
+        Field('lista', label="lista", requires=IS_NOT_EMPTY()),
+        submit_button="Processar"
     )
     if form.process().accepted:
         try:
@@ -107,7 +115,7 @@ def bolha():
             valor = []
             for i in lista:
                 valor.append(i.valor)
-
+            response.flash = valor
         except:
             response.flash = "ERRO, formato invalido, tente '1,2,3'"
             return dict(form=form)
@@ -118,13 +126,15 @@ def bolha():
 
 def quicksort():
     form = SQLFORM.factory(
-        Field('lista', label="lista", requires=IS_NOT_EMPTY())
+        Field('lista', label="lista", requires=IS_NOT_EMPTY()),
+        submit_button="Processar"
     )
     if form.process().accepted:
         try:
             Str = str(form.vars.lista).split(",")
             vetor = [int(n) for n in Str]
             valor = ksort(vetor)
+            response.flash = valor
         except:
             response.flash = "ERRO, formato invalido, tente '1,2,3'"
             return dict(form=form)
